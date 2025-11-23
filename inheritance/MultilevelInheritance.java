@@ -10,9 +10,15 @@ class Peacock extends Birds {   // Dog inherits from Animal
         System.out.println("Peacock is flying");
     }
 }
+class Parrots extends Peacock{
+    void sound(){
+        System.out.println("Parrot make a sound");
+    }
+}
 public class MultilevelInheritance {
     public static void main(String[] args) {
-        Peacock p = new Peacock();
+        Parrots p = new Parrots();
+        p.sound();
         p.fly();
         p.eat();
     }

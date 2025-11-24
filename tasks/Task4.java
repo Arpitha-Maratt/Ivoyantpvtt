@@ -1,4 +1,8 @@
 package tasks;
+/*4. Create Class: Seller (extends User)
+Add variable: sellerId
+Override showInfo()
+Add method: addProduct()*/
 
 class Users{
 

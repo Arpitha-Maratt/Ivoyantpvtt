@@ -1,5 +1,19 @@
 package tasks;
 
+/*1. Create Base Class: User
+Create private variables: name, email
+Create static variable: totalUsers
+Create:
+Default constructor
+Parameterized constructor (use this)
+Increment totalUsers inside constructors
+Add method: showInfo()
+Add getters and setters (encapsulation)
+Overload method:
+updateEmail(String email)
+updateEmail(String username, String domain)*/
+
+
 class User {
     private String name;
     private String email;

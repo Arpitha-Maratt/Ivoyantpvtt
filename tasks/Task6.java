@@ -1,5 +1,11 @@
 package tasks;
 
+/*6. Create Class: Order (HAS-A Relationship)
+Variables: orderId, Customer customer, double amount
+Constructor should use this
+Method: showOrderDetails()
+(Print order details + call customer.showInfo())*/
+
 class Customer2{
     String name;
     String email;

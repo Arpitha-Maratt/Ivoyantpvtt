@@ -1,5 +1,12 @@
 package tasks;
 
+/*7. Demonstrate Runtime Polymorphism
+Create User references holding:
+Customer object
+PremiumCustomer object
+Seller object
+Call showInfo() on each*/
+
 class User2{
     public void showInfo(){
         System.out.println("Iser info");

@@ -1,5 +1,10 @@
 package tasks;
 
+/*2. Create Class: Customer (extends User)
+Add variable: customerId
+Constructor must call super()
+Override showInfo()
+Add method: placeOrder()*/
 class User1{
 
     String name;

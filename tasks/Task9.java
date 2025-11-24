@@ -1,5 +1,11 @@
 package tasks;
 
+/*9. Demonstrate Reference Type vs Object Type
+Create:
+User u = new Customer(...);
+Try calling u.processPayment(...) and observe the compile error
+(Explain why it fails)*/
+
 class User4 {
     String name;
 

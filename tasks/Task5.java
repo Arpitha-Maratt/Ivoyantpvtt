@@ -1,4 +1,9 @@
 package tasks;
+/*5. Create Interfaces (Multiple Inheritance)
+interface PaymentService { void processPayment(double amount); }
+interface NotificationService { void sendNotification(String msg); }
+Make Customer implement both interfaces*/
+
 
 interface  PaymentService{
     void processPayment(double amount);

@@ -1,5 +1,10 @@
 package tasks;
 
+/*11. Create Objects in main()
+Create multiple Users, Customers, Sellers, PremiumCustomers
+Create an Order object
+Print: User.totalUsers*/
+
 // Parent class
 class User6 {
     private String name;

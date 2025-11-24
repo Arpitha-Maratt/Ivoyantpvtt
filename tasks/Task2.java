@@ -1,5 +1,10 @@
 package tasks;
 
+/*3. Create Class: PremiumCustomer (extends Customer)
+Add variable: rewardPoints
+Override showInfo()
+Add method: redeemPoints()*/
+
 class Customer{
     public void showInfo(){
         System.out.println("Customer information");

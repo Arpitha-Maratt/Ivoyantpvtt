@@ -12,6 +12,8 @@ public class ReadFilesWithDifferentMethods {
             System.out.println("File size:"+ myObj.length());
             System.out.println("Last modified:"+myObj.lastModified());
             System.out.println("list of the file:"+myObj.list());
+            System.out.println("Is absolute path"+myObj.isAbsolute());
+            System.out.println("Absolute path: " + myObj.getAbsolutePath());
         }
     }
 }
